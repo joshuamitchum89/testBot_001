@@ -1,0 +1,20 @@
+{
+  "name": "test-bot_001",
+  "version": "0.0.0",
+  "description": "testBot_001",
+  "main": "server.js",
+  "scripts": {
+    "tsc": "tsc -w --skipLibCheck"
+  },
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^14.2.0",
+    "wokcommands": "^1.5.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
