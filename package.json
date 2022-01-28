@@ -4,14 +4,17 @@
   "description": "testBot_001",
   "main": "server.js",
   "scripts": {
-    "tsc": "tsc -w --skipLibCheck"
+    "tsc": "tsc -w --skipLibCheck",
+    "dev": "nodemon index.js"
   },
   "author": {
     "name": ""
   },
   "dependencies": {
+    "commands": "^0.0.7",
     "discord.js": "^13.6.0",
     "dotenv": "^14.2.0",
+    "wok": "^1.1.2",
     "wokcommands": "^1.5.3"
   },
   "devDependencies": {
